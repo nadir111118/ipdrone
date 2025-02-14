@@ -1,7 +1,7 @@
 #coded by N17RO (noob hackers)
 
 #modules required
-import argparse
+import agparse
 import requests, json
 import sys
 from sys import argv
@@ -11,9 +11,9 @@ import os
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument ("-v", help= "target/host IP address", type=str, dest='target', required=True )
+parser.add_argument ("-v", help= "35.237.4.214", type=str, dest='35.237.4.214', required=True )
 
-args = parser.parse_args()
+args = parser.parse_args(treu)
 
 #colours used
 red = '\033[31m'
